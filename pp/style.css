@@ -1,0 +1,2828 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.cdnfonts.com/css/aquawax-pro-trial');
+
+ body, h1, h2, h3, p, a, h4, h5, h6 {
+       font-family: 'Arial';
+   }
+
+.logo {
+    display: flex; /* Используем flexbox для расположения элементов */
+    align-items: center; /* Вертикальное выравнивание по центру */
+
+position: absolute;
+width: 300px;
+height: 80px;
+left: 375px;
+top: 15px;
+
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+
+}
+
+.text-container {
+    margin-left: 10px; /* Отступ между картинкой и текстом */
+
+
+}
+
+.textlogo h1 {
+
+
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+}
+
+
+.textlogo p {
+
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+margin-left: 0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.contact
+{
+  display: flex;
+    flex-direction: column;
+
+
+position: absolute;
+width: 307px;
+height: 61px;
+right: 375px;
+top: 0px;
+
+
+}
+
+
+.pochta
+{
+
+  display: flex;
+   align-items: center;
+
+}
+.pochta h1
+{
+
+
+
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+
+}
+.phone
+{
+    display: flex;
+     align-items: center;
+
+}
+.phone h1
+{
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+
+}
+
+.menu
+{
+    width: 100%;
+    height: 5%;
+    background-color: #57ADE4;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+/* Frame 128 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+gap: 20px;
+
+
+background: #57ADE4;
+
+}
+.menu li 
+{
+    display: inline;
+
+}
+.menu a 
+{
+    text-decoration: none;
+        color: white;
+padding-right: 25px;
+font-family: 'Open Sans';
+font-style: normal;
+font-size: 16px;
+    align-items: center;
+}
+
+.photoclass
+{
+width: 100%;
+    position: absolute;
+ top: 147px;
+ left: 0;
+ 
+
+}
+.photoclass img
+{
+    width: 100%;
+    height: 1000px;
+
+}
+.photoclass h1
+{
+    
+
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+color: #FFFFFF;
+margin-bottom: 0px;
+}
+.photoclass p
+{
+
+margin-bottom: 70px;    
+
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+color: #FFFFFF;
+}
+.photomess
+{
+
+display: flex;
+flex-direction: column;
+
+
+
+position: absolute;
+width: 770px;
+top: 240px;
+left: 400px;
+
+}
+.photomess button
+{
+
+width: 270px;
+height: 62px;
+background: #57ADE4;
+border-radius: 0px 30px;
+color:white;
+
+
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+border: 0px;
+
+}
+
+.photomess button:hover
+{
+    background: #3B91C8;
+}
+
+.navarrows
+{
+
+/* Frame 176 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+position: absolute;
+width: 88px;
+height: 34px;
+left: calc(50% - 88px/2 - 541px);
+top: 906px;
+}
+
+ul
+{
+    position: relative;
+}
+.dropdown {
+    display: none; /* Скрываем выпадающий список по умолчанию */
+    position: absolute;
+    background-color: #e9eded; /* Фон выпадающего списка */
+    border: 1px solid #ccc;
+    border-radius: 20px; /* Рамка выпадающего списка */
+    z-index: 1000; /* Устанавливаем уровень отображения */
+     /* Добавляем отступы */
+    left: -10px;
+    top: 30px;
+        font-size: 16px;
+        padding: 0;
+        width: 200px;
+ }
+
+li:hover .dropdown {
+    display: block; 
+}
+
+
+
+.dropdown li a {
+    display: flex;
+    color: black; 
+    padding:15px 0px 15px 0px;       
+    justify-content: center;
+}
+
+.tri {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent; 
+    border-right: 10px solid transparent; 
+    border-bottom: 10px solid #e9eded;
+    position: absolute; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    top: -10px; 
+}
+.sectioninfo
+{
+    width: 100%;
+    position: absolute;
+    top: 1170px;
+        left: 0;   
+    justify-content: center;
+
+
+
+}
+.sectioninfo h1
+{
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
+
+}
+.heightsect, .lowsect
+{
+   display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding-bottom: 70px;
+
+
+}
+
+.lowsect img
+{
+    border-radius: 0px 30px;
+padding-right: 30px;
+
+}
+.heightsect img
+{
+    border-radius: 0px 30px;
+padding-left: 30px;
+}
+.sectioninfo p
+{
+
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+
+color: #556063;
+}
+
+.advent
+{
+
+
+    position: absolute;
+    top:2100px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    left: 0;
+}
+.listadvent
+{
+    display: flex;
+    flex-direction: row;
+    left: 50%;
+    transform: translateX(38%);
+    justify-content: space-evenly;
+    width: 55%;
+    padding-bottom: 200px;
+}
+.oneadvent h1
+{
+
+
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+
+}
+
+.advent h2
+{
+display: flex;
+align-items: center;
+justify-content: center;
+
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
+
+}
+
+.oneadvent p
+{
+
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+
+margin-left: 0;
+}
+.oneadvent 
+{
+    margin-left: 30px;
+
+}
+.points
+{
+    display: block;
+     display: flex;
+
+
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 430px;
+}
+.principes
+{
+    width: 100%;
+    background-color: #E9EDED;
+    position: absolute;
+    top: 2600px;
+    left: 0;
+    display: flex;
+        justify-content: center;
+flex-direction: column;
+
+
+
+}
+.principes h1
+{
+
+
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
+display: flex;
+color: #0C191F;
+justify-content: center;
+margin-top: 100px;
+}
+.points p
+{
+
+/* H4 */
+
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 135%;
+/* or 24px */
+
+/* Text */
+color: #556063;
+
+
+
+}
+.points h2
+{
+    /* 01 */
+
+width: 210px;
+height: 37px;
+
+/* H2 */
+
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 37px;
+/* identical to box height */
+
+/* Akcent */
+color: #57ADE4;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.firstlevel
+{
+
+
+    display: flex;
+    padding-bottom: 30px;
+}
+.secondlevel
+{
+
+
+    display: flex;
+    padding-bottom: 30px;
+
+}
+.thirdlevel
+{
+
+
+    display: flex;
+}
+
+.point1 {
+    
+
+padding: 30px;
+gap: 10px;
+
+
+width: 170px;
+height: 187px;
+/* Background 1 */
+background: #F2F6F6;
+border-radius: 0px 30px;
+margin-right: 20px;
+
+}
+.principes h2
+{
+
+
+    margin: 0;
+    padding: 0;
+}
+.principes p
+{
+
+
+    margin: 0;
+    padding: 0;
+}
+  .point2 {
+   display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 30px;
+gap: 10px;
+margin-right: 20px;
+
+
+width: 170px;
+height: 187px;
+
+/* Background 1 */
+background: #F2F6F6;
+border-radius: 0px 30px;
+  }
+  .point3 {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 30px;
+gap: 10px;
+
+
+width: 170px;
+height: 187px;
+margin-right: 20px;
+
+/* Background 1 */
+background: #F2F6F6;
+border-radius: 0px 30px;
+  }
+.point4 {
+display: flex;
+flex-direction: column;
+margin-right: 20px;
+
+padding: 30px;
+gap: 10px;
+
+width: 170px;
+height: 173px;
+
+
+/* Background 1 */
+background: #F2F6F6;
+border-radius: 0px 30px;
+
+
+
+  }
+  .point5 {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 30px;
+gap: 10px;
+margin-right: 20px;
+
+
+height: 201px;
+
+/* Background 1 */
+background: #F2F6F6;
+border-radius: 0px 30px;
+
+
+
+  }
+  .point6 {
+   display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 30px;
+gap: 10px;
+margin-right: 20px;
+
+height: 201px;
+
+
+/* Background 1 */
+background: #F2F6F6;
+border-radius: 0px 30px;
+
+
+  }
+  .point7 {
+ display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 30px;
+gap: 10px;
+width: 200px;
+height: 201px;
+
+
+/* Background 1 */
+background: #F2F6F6;
+border-radius: 0px 30px;
+}
+  .point7 p {
+ font-size: 14px;
+}
+  .point8 {
+   display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 30px;
+gap: 10px;
+margin-right: 20px;
+
+
+height: 151px;
+width: 950px;
+/* Background 1 */
+background: #F2F6F6;
+border-radius: 0px 30px;
+  }
+
+.komplect
+{
+    width: 100%;
+    position: absolute;
+    top: 3550px;
+        background-color: #E9EDED;
+        left: 0;
+
+
+}
+.komplect h1
+{
+
+
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
+display: flex;
+color: #0C191F;
+justify-content: center;
+margin-top: 180px; 
+}
+.komplect p
+{
+    font-size: 16px;
+
+
+}
+.komplectcard {
+
+            background-color: white; /* Белый фон */
+            padding: 15px; /* Отступы внутри карточки */
+            margin: 55px; /* Центрирование карточки */
+            width: 400px;
+            height: 450px;
+            border-radius: 0px 30px;
+            margin-left: 90px;
+
+
+        }
+        .info-row {
+            display: flex; /* Используем Flexbox для выравнивания */
+            justify-content: space-between; /* Распределяем пространство между элементами */
+            margin-bottom: 2px; /* Отступ между строками */
+
+
+        }
+        
+        .leftinfo {
+            text-align: left; /* Выравнивание текста влево */
+
+
+        }
+        .rightinfo {
+            text-align: right; /* Выравнивание текста вправо */
+
+
+        }
+    
+.cards
+{
+    display: flex;
+    margin-left: 400px;
+
+
+}
+
+.buttons
+{
+    /* Frame 236 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+
+font-style: normal;
+display: flex;
+justify-content: center;
+margin-top: 0px; 
+
+}
+.sectionzapusk button
+{
+    /* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 30px;
+gap: 10px;
+transition: 0.5s;
+width: 185px;
+height: 42px;
+font-size: 12px;
+/* Akcent */
+background: #ffffff;
+border-radius: 0px 20px;
+border: 1px solid gray;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.buttons button:hover
+{
+    transition: 0.5s;
+    color: #57ADE4;
+    border: 2px solid #57ADE4;
+}
+
+.sectionzapusk
+{
+    width: 100%;
+    position: absolute;
+    top: 4450px;
+        background-color: #FFFFFF;
+
+        left: 0;
+
+}
+.sectionzapusk h1
+{
+
+
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
+display: flex;
+color: #0C191F;
+justify-content: center;
+margin-top: 0px; 
+}
+
+
+        .listpravila {
+            display: flex; /* Используем Flexbox для расположения элементов */
+            align-items: flex-start; /* Выравнивание по верхнему краю */
+            margin: 20px; /* Отступы вокруг блока */
+            justify-content: center;
+        
+
+        }
+        
+        .listpravila ul {
+         
+            margin-right: 20px; /* Отступ справа для списка */
+            font-size: 18px;
+            color: #556063;
+        
+
+        }
+
+        .listpravila img {
+            width: 500px;
+            height: 310px;
+            border-radius: 0px 30px; /* Закругление углов */
+            margin-top: 30px;
+        }
+.warningmessage
+{
+    display: flex;
+   align-items: center;
+   height: 20px;
+   padding: 20px;
+   width: 55%;
+   background-color: #E9EDED;
+   transform: translateX(39%);
+   border-radius: 15px;
+
+
+}
+.warningmessage p
+{
+    margin-left: 10px;
+    /* ВНИМАНИЕ: все действия надо производить именно в этом порядке! */
+
+/* H3 */
+
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+
+/* Text */
+color: #556063;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+}
+
+.obsluzh
+{
+    width: 100%;
+    position: absolute;
+    top: 5200px;
+        background-color: #FFFFFF;
+        left: 0;
+
+
+}
+.obsluzh h1
+{
+
+
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
+display: flex;
+color: #0C191F;
+justify-content: center;
+margin-top: 0px; 
+}
+
+.obsluzh .listpravila img
+{
+    margin-top: 0px;
+}
+
+.obsluzh .listpravila li {
+         
+            font-size: 18px;
+            color: #556063;
+            padding: 3px;
+
+
+        }
+.sertsect
+{
+   width: 100%;
+    position: absolute;
+    top: 5800px;
+        background-color:#E9EDED;
+        left: 0;   
+        display: flex;
+        flex-direction: row;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        justify-content: center;
+
+
+}
+
+.sertsect img
+{
+width: 570px;
+height: 403px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.sertsect p
+{
+    /* Предварительные выводы неутешительны: социально-экономическое развитие способствует подготовке и реализации укрепления моральных ценностей. Лишь диаграммы связей рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок. С учётом сложившейся международной обстановки, социально-экономическое развитие не оставляет шанса для позиций, занимаемых участниками в отношении поставленных задач. Ясность нашей позиции очевидна: консультация с широким активом прекрасно подходит для реализации новых принципов формирования материально-технической и кадровой базы. */
+
+width: 570px;
+height: 264px;
+
+/* H4 */
+
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 135%;
+/* or 24px */
+margin-left: 0;
+color: #556063;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.sertsect h1
+{
+    /* Гарантия на корпус фильтра 10 лет */
+
+width: 570px;
+height: 92px;
+
+/* H1 */
+
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
+
+/* H1 */
+color: #0C191F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.sertleft
+{
+    margin-top: -30px;
+}
+span
+{
+    color: #57ADE4;
+
+
+}
+
+
+.skimmer
+{
+       width: 100%;
+    position: absolute;
+    top: 6400px;
+        left: 0;   
+        display: flex;
+        flex-direction: row;
+
+
+        justify-content: center;
+        background-color: #F2F6F6;
+        padding-bottom: 50px;
+}  
+.skimmer img
+{
+    /* фильтр скиммер 1 */
+
+width: 570px;
+height: 543px;
+margin-top:100px; 
+margin-left: 50px;
+}
+.skimmer button
+{
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 20px;
+gap: 10px;
+margin-left: 200px;
+width: 320px;
+height: 62px;
+margin-top: -65px;
+/* Akcent */
+background: #57ADE4;
+border-radius: 0px 30px;
+border: 0;
+color: white;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+}
+
+.skimmer button:hover
+{
+background-color: #3B91C8;
+transition: 0.5s;
+}
+.skimmer p
+{
+    /* Использование скиммера в системе очистке водоема является обязательным условием правильной фильтрации. Мусор попадающий в водоем, как правило, тонет не сразу, а какое то время остается на поверхности. Для его сбора и применяет скиммер. Мы выбрали самый эффективный вариант для этой задачи: встраиваемый, прибрежный. Мощный насос как одеяло затягивает в скиммер тонкий, верхний слой воды на котором плавает мусор. Большая корзина для сбора мусора не требует частой очистки. Так как скиммер находится на берегу его гораздо удобнее обслуживать, чем скиммеры установленные или плавающие в воде. Если у вас уже есть скиммер или его установка технически не возможна, укажите это в заявке, мы уберем его из комплектации и отнимем стоимость. */
+
+width: 570px;
+height: 312px;
+
+/* H4 */
+
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 135%;
+/* or 24px */
+margin-left: 0;
+/* Text */
+color: #556063;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.costs
+{
+/* Frame 163 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+
+width: 198px;
+height: 69px;
+margin-top: 30px;
+margin-left: 0;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.costs s
+{
+    /* 250 000 руб. */
+
+
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 135%;
+/* identical to box height, or 22px */
+
+/* Text */
+color: #556063;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.costs h3
+{
+    /* 249 000 руб. */
+
+width: 198px;
+height: 37px;
+
+/* H2 */
+
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 37px;
+/* identical to box height */
+margin-top: -10px;
+/* H1 */
+color: #0C191F;
+
+margin-left: 0;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+.rightskimmer
+{
+    margin-left: 70px;
+    margin-top: 80px;
+
+
+}
+.skimmerarrows
+{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+position: absolute;
+left: 1400px;
+top: 100px;
+}
+
+.materials
+{
+         width: 100%;
+    position: absolute;
+    top: 7090px;
+        left: 0;   
+        display: flex;
+        flex-direction: column;
+
+      
+        background-color: #E9EDED;
+        padding-bottom: 100px;
+}
+.materials h1
+{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    align-items: center;
+   /* Оборудование и материалы для фильтра */
+
+width: 1022px;
+height: 46px;
+
+/* H1 */
+
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
+/* identical to box height */
+
+/* H1 */
+color: #0C191F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+margin-left: 370px;
+
+
+
+}
+.materials img
+{
+    /* Rectangle 6 */
+
+width: 370px;
+height: 270px;
+
+border-radius: 0px 30px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.materialcost
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+
+
+
+}
+
+.materialcost p
+{
+
+
+/* H3 */
+margin-left: 0;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+
+/* H1 */
+color: #0C191F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.materialcost s
+{
+    /* 441 руб. */
+
+width: 70px;
+height: 19px;
+margin-top: 5px;
+margin-left: 5px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 135%;
+/* identical to box height, or 19px */
+text-decoration-line: line-through;
+
+/* Text */
+color: #556063;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.materials button
+{
+    /* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 30px;
+gap: 10px;
+
+width: 330px;
+height: 62px;
+
+/* Akcent */
+background: #57ADE4;
+border-radius: 0px 30px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+border: 0;
+color: white;
+font-size: 16px;
+
+
+
+}
+.cards
+{
+margin-left: 350px;
+
+
+}
+.onecard
+{
+    padding-left: 20px;
+
+
+}
+
+.materials button:hover
+{
+background-color: #3B91C8;
+transition: 0.5s;
+}
+.horizontalhead
+{
+    position: absolute;
+    top: 7900px;
+    left: 0;
+
+
+}
+
+.horizontalhead img
+{
+    width: 100%;
+    height: 100%;
+}
+.horizontalhead h1
+{
+    /* Создание водоемов по типовому проекту Михайлова */
+
+width: 670px;
+height: 92px;
+
+/* H1 */
+
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
+
+color: #FFFFFF;
+position: absolute;
+top: 100px;
+left: 380px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.horizontalhead h4
+{
+    /* С установкой собственной фильтрационной системы. */
+
+width: 670px;
+height: 23px;
+
+/* H3 */
+
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+
+color: #FFFFFF;
+position: absolute;
+top: 230px;
+left: 380px;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.horizontalhead button
+{
+    /* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 30px;
+gap: 10px;
+position: absolute;
+top: 330px;
+left: 380px;
+width: 270px;
+height: 62px;
+
+/* Akcent */
+background: #57ADE4;
+border-radius: 0px 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+color: white;
+border:0;
+}
+
+.horizontalhead button:hover
+{
+background-color: #3B91C8;
+transition: 0.5s;
+}
+
+.projectinfo
+{
+    position: absolute;
+    left: 0;
+    top: 8500px;
+     width: 100%;
+
+          
+    justify-content: center;
+
+}
+
+.projectinfo h1
+{
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
+
+}
+.topsect, .nizsect
+{
+   display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding-bottom: 70px;
+}
+
+.nizsect img
+{
+    border-radius: 0px 30px;
+padding-right: 30px;
+
+}
+.topsect img
+{
+    border-radius: 0px 30px;
+padding-left: 30px;
+}
+.projectinfo p
+{
+
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+
+color: #556063;
+}
+
+.primers
+{
+    position: absolute;
+    top: 9000px;
+    left: 0;
+    width: 100%;
+    background-color: #E9EDED;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    justify-content: center;
+    padding-bottom: 100px;
+
+
+}
+.charact
+{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    margin-top: -20px;
+
+
+}
+.primers img
+{
+    /* Rectangle 18 */
+
+width: 470px;
+height: 350px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+border-radius: 0px 30px;
+
+}
+.primers button
+{
+    /* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+position: absolute;
+left: 440px;
+top: 460px;
+padding: 20px 30px;
+gap: 10px;
+border: 0;
+color: white;
+margin: 0 auto;
+width: 195px;
+height: 62px;
+
+
+/* Akcent */
+background: #57ADE4;
+border-radius: 0px 30px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.primers button:hover
+{
+    background-color: #3B91C8;
+transition: 0.5s;
+}
+
+.primers h3
+{
+    /* Характеристики проекта */
+
+width: 570px;
+height: 23px;
+margin-top: 30px;
+/* H3 */
+
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+
+/* H1 */
+color: #0C191F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.pp 
+{
+    /* Объем */
+
+width: 60px;
+height: 24px;
+
+/* H4 */
+
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 135%;
+/* or 24px */
+
+/* Text */
+color: #556063;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.ppp
+{
+    /* 80 000 литров */
+
+width: 126px;
+height: 24px;
+
+/* H4 */
+
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 135%;
+/* or 24px */
+text-align: right;
+
+/* H1 */
+color: #0C191F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+}
+.p1
+{
+    /* С системой фильтрации, включающею в себя биофильтр (комплектация), скиммер. Отделка береговой линии включена в стоимость. Цена за такой проект будет в районе 500 000 рублей. */
+
+width: 570px;
+height: 96px;
+
+/* H4 */
+
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 135%;
+/* or 24px */
+margin-top: 10px;
+/* Text */
+color: #556063;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.primers h4
+{
+    /* Пруд с размером 10*6*1,5 метра. */
+
+/* H3 */
+
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+margin-bottom: 0;
+/* identical to box height */
+padding-bottom: 0;
+/* H1 */
+color: #0C191F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.all 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.novyidiv
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+
+
+}
+.primers h1
+{
+    text-align: center;
+
+
+}
+
+.materialsarrows
+{
+        display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+position: absolute;
+left: 1400px;
+top: 130px;
+}
+.primerarrows
+{
+        display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+position: absolute;
+left: 860px;
+top: 470px;
+}
+.actions {
+
+    position: absolute;
+    top: 9600px;
+    left: 0;
+
+    width: 100%;
+    padding-top: 40px;
+
+
+  }
+.actions h1
+{
+    /* Акции и спецпредложения */
+
+
+/* H1 */
+
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
+/* identical to box height */
+text-align: center;
+
+/* H1 */
+color: #0C191F;
+}
+.actions h2
+{
+    /* Скидка в обмен на старый фильтр */
+
+
+/* H3 */
+
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+
+/* H1 */
+color: #0C191F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.actions p
+{
+    /* Сдайте старый пластиковый фильтр и получите новый стальной биофильтр со скидкой 5 % */
+
+
+/* H5 */
+
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 135%;
+/* or 19px */
+
+/* Text */
+color: #556063;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.actionscard-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Отступ между группами элементов */
+
+
+    margin-top: 0;
+  }
+
+  .actionscard {
+    position: relative; /* Позволяет использовать абсолютное позиционирование для дочерних элементов */
+    width: 470px; /* Фиксированная ширина блока */
+    margin: 15px 15px; /* Отступ между элементами внутри группы */
+    padding: 15px; /* Отступ от границы */
+    background: #E9EDED;
+border-radius: 0px 30px;
+
+
+padding-bottom: 30px;
+  }
+
+  .actionscard h2,p
+  {
+    margin-left: 15px;
+
+
+  }
+
+  .actionscard img {
+    position: absolute; /* Позволяет позиционировать изображение относительно родительского блока */
+    bottom: -20px; /* Сдвигаем изображение вниз за границу блока */
+    right: -20px; /* Сдвигаем изображение вправо за границу блока */
+    width: 200px;
+    height: 130px;
+
+  }
+
+.questions
+{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 10300px;
+    padding-bottom: 50px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.questions button:hover
+{
+    background-color: #3B91C8;
+transition: 0.5s;
+}
+
+.questions button
+{
+    /* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 30px;
+gap: 10px;
+margin-top: 30px;
+width: 172px;
+height: 62px;
+color: white;
+/* Akcent */
+background: #57ADE4;
+border-radius: 0px 30px;
+border: 0;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+}
+
+.questions h1
+{
+    margin-bottom: 50px;
+    /* Частые вопросы */
+
+/* H1 */
+
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
+/* identical to box height */
+text-align: center;
+
+/* H1 */
+color: #0C191F;
+
+
+}
+.custom-details
+{
+    background-color: green;
+    border-radius: 0px 30px;
+
+    /* FAQ */
+margin-left: 550px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px 20px 20px 30px;
+ margin-bottom: 10px;
+width: 770px;
+justify-content: center;
+/* Background 2 */
+background: #E9EDED;
+border-radius: 0px 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.custom-details summary {
+    display: flex;
+    justify-content: space-between; /* Выравниваем элементы по обе стороны */
+    align-items: center; /* Выравниваем элементы по вертикали */
+    cursor: pointer; /* Курсор при наведении */
+    padding-right: 20px; /* Отступ справа для удобства */
+
+
+
+    font-size: 20px;
+    font-weight: 600;
+    color: #556063;
+
+
+}
+.custom-details p {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 135%;
+/* or 22px */
+
+/* Text */
+color: #556063;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+.custom-details summary::-webkit-details-marker {
+    display: none; /* Убираем стандартный указатель */
+}
+
+.custom-details summary:after {
+    content: '';
+width: 15px;
+
+height: 15px;
+
+border-top: 2px solid #57ADE4 ;
+
+border-right: 2px solid #57ADE4 ;
+
+margin: 16px 0 0 10px;
+
+transform: rotate(135deg);
+
+display: inline-block;
+
+transition: 0.5s;
+}
+
+.custom-details[open] summary:after {
+    transform: rotate(-45deg); /* Поворот треугольника при открытии */
+}
+.etaps
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 11300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 60px;
+
+
+}
+.etaps h1
+{
+     margin-bottom: 50px;
+    /* Частые вопросы */
+
+/* H1 */
+
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
+/* identical to box height */
+text-align: center;
+
+/* H1 */
+color: #0C191F;
+}
+
+.etaps button:hover
+{
+        background-color: #3B91C8;
+transition: 0.5s;
+}
+.etaps button
+{
+    /* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 30px;
+gap: 10px;
+margin-top: 25px;
+width: 270px;
+height: 62px;
+
+border: 0;
+color: white;
+/* Akcent */
+background: #57ADE4;
+border-radius: 0px 30px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.etapcards
+{
+        display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    margin: 10px;
+    justify-content: center ;
+
+
+}
+.etapcard
+{
+    padding-left: 40px;
+    justify-content: ;
+
+
+}
+.etaps span
+{
+    /* 01 */
+
+width: 48px;
+height: 36px;
+
+/* H1 */
+
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
+
+/* Akcent */
+color: #57ADE4;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.etaps h4
+{
+    /* Заказ */
+
+width: 270px;
+height: 23px;
+
+/* H3 */
+
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+
+/* H1 */
+color: #0C191F;
+margin-top: 10px;
+margin-bottom: 10px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.etaps p
+{
+    /* Заказать систему фильтрации можно на сайте заполнив форму заявки. Вы получите счет на оплату и договор на поставку. */
+/* H4 */
+
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 135%;
+/* or 24px */
+margin-left: 0;
+/* Text */
+color: #556063;
+margin-top: 0;
+margin-bottom:0 ;
+padding-bottom: 0;
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+.etaps li
+{
+    /* Заказать систему фильтрации можно на сайте заполнив форму заявки. Вы получите счет на оплату и договор на поставку. */
+
+
+/* H4 */
+
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+margin-left: -20px;
+/* or 24px */
+margin-top: 0;
+padding-top: -10px;
+/* Text */
+color: #556063;
+}
+
+.etaps ul
+{
+    margin-top: 5px;
+
+
+}
+
+.perekhod
+{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 11850px;
+
+}
+
+.perekhod img
+{
+    width: 100%;
+}
+
+.etaps2
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 12300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 60px;
+
+
+}
+.etaps2 h1
+{
+     margin-bottom: 50px;
+    /* Частые вопросы */
+
+/* H1 */
+
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
+/* identical to box height */
+text-align: center;
+
+/* H1 */
+color: #0C191F;
+}
+
+.etaps2 button:hover
+{
+        background-color: #3B91C8;
+transition: 0.5s;
+}
+.etaps2 button
+{
+    /* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 30px;
+gap: 10px;
+margin-top: 25px;
+width: 270px;
+height: 62px;
+
+border: 0;
+color: white;
+/* Akcent */
+background: #57ADE4;
+border-radius: 0px 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+}
+.etaps2 span
+{
+    /* 01 */
+
+width: 48px;
+height: 36px;
+
+/* H1 */
+
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
+
+/* Akcent */
+color: #57ADE4;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.etaps2 h4
+{
+    /* Заказ */
+
+width: 270px;
+height: 23px;
+
+/* H3 */
+
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+
+/* H1 */
+color: #0C191F;
+margin-top: 10px;
+margin-bottom: 10px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.etaps2 p
+{
+    /* Заказать систему фильтрации можно на сайте заполнив форму заявки. Вы получите счет на оплату и договор на поставку. */
+/* H4 */
+
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 135%;
+/* or 24px */
+margin-left: 0;
+/* Text */
+color: #556063;
+margin-top: 0;
+margin-bottom:0 ;
+padding-bottom: 0;
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+.etaps2 li
+{
+    /* Заказать систему фильтрации можно на сайте заполнив форму заявки. Вы получите счет на оплату и договор на поставку. */
+
+
+/* H4 */
+
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+margin-left: -20px;
+/* or 24px */
+margin-top: 0;
+padding-top: -10px;
+/* Text */
+color: #556063;
+}
+
+.etaps2 ul
+{
+    margin-top: 5px;
+
+
+}
+.inputs
+{
+    padding-bottom: 40px;
+    padding-top: 40px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 13000px;
+    background-color: #5199FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.inputs input 
+{
+    width: 400px;
+        border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    margin-left: 10px;
+
+
+
+
+    /* Телефон */
+
+height: 24px;
+
+/* H4 */
+font-family: 'Aquawax Pro Trial ';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 135%;
+/* or 24px */
+
+/* Text */
+color: #556063;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+}
+.inputs h5
+{
+    /* Приглашаем к сотрудничеству */
+
+width: 1110px;
+height: 23px;
+
+/* H3 */
+font-family: 'Aquawax Pro Trial ';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+margin-top: 0;
+/* H1 */
+color: #0C191F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.inputs p
+{
+    /* Торговые организации, ландшафтные фирмы, ландшафтных дизайнеров. Вы точно порадуете своих покупателей и заказчиков - надежным, эффективным и неприхотливым биофильтром « Проекта Михайлова». */
+
+width: 1110px;
+height: 48px;
+
+/* H4 */
+
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 135%;
+/* or 24px */
+margin-left: 0;
+margin-top: -20px;
+/* Text */
+color: #556063;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+.inputs button
+{
+
+padding: 20px 30px;
+gap: 10px;
+
+width: 250px;
+height: 62px;
+
+/* Akcent */
+background: #57ADE4;
+border-radius: 0px 30px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+border: 0;
+color: white;
+
+
+}
+.inputcard
+{
+    /* Pop-up */
+
+/* Auto layout */
+
+    justify-content: center;
+padding: 30px;
+gap: 20px;
+width: 60%;
+/* Background 1 */
+background: #F2F6F6;
+/* SH1 */
+box-shadow: 0px 10px 30px rgba(0, 55, 0, 0.1);
+border-radius: 0px 30px;
+
+
+}
+
+.inputs button:hover
+{
+        background-color: #3B91C8;
+transition: 0.5s;
+}
+
+.map
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 13300px;
+
+
+} 
+.map img
+{
+    width: 100%;
+}
+.svgplustext
+{
+      display: flex;
+    flex-direction: row;
+      align-items: center;
+      padding-bottom: 0;
+      padding-top: 0;
+      margin-top: 0;
+      margin-bottom: 0;
+  
+
+}
+.map h3
+{
+       padding-bottom: 0;
+      padding-top: 0;
+      margin-top: 0;
+      margin-bottom: 0;
+  
+
+}
+.mapcardbottom
+{
+     display: flex;
+    flex-direction: column;
+
+
+}
+.map button
+{
+    /* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 30px;
+gap: 10px;
+margin-top: 55px;
+width: 390px;
+height: 62px;
+
+/* Akcent */
+background: #57ADE4;
+border-radius: 0px 30px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+border: 0;
+
+color: white;
+
+}
+
+.mapcard
+{
+    /* Frame 170 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 30px 40px;
+margin: 0;
+position: absolute;
+width: 400px;
+height: 520px;
+left: calc(50% - 470px/2 - 350px);
+top: calc(50% - 520px/2);
+
+
+/* Background 1 */
+background: #F2F6F6;
+box-shadow: 0px 30px 30px rgba(35, 75, 91, 0.1);
+border-radius: 0px 60px;
+
+}
+.mapcardbottom svg 
+{
+    margin-top: 30px;
+}
+.map button:hover
+{
+        background-color: #3B91C8;
+transition: 0.5s;
+}
+footer
+{
+    /* block */
+
+width: 100%;
+
+padding-bottom: 10px;
+/* H1 */
+background: #0C191F;
+
+/* Inside auto layout */
+flex: none;
+order: 19;
+align-self: stretch;
+flex-grow: 0;
+position: absolute;
+width: 100%;
+left: 0;
+top: 14230px;
+}
+
+footer h2
+{
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+margin-left: 400px;
+margin-top: 40px;
+color: #F2F6F6;
+opacity: 0.25;
+}
+.rightfooter
+{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+      align-items: center;
+      padding-bottom: 0;
+      padding-top: 0;
+      margin-top: 0;
+      margin-bottom: 0;
+      position: absolute;
+      left: 1200px;
+      top: 15px;
+}
+.rightfooter p
+{
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 135%;
+/* identical to box height, or 27px */
+text-align: center;
+
+/* Background 1 */
+color: #F2F6F6;
+margin-left: 20px;
+opacity: 0.25;
+}
+.rightfooter svg
+{
+    margin-left: 30px;
+}
+
+
+.modal {
+            display: none; /* Скрыть модальное окно по умолчанию */
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgb(0,0,0);
+            background-color: rgba(0,0,0,0.4);
+            padding-top: 60px;
+
+
+
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%; 
+        }
+
+.modal h2
+{
+    /* Форма обратной связи */
+margin-bottom: 0;
+width: 510px;
+height: 37px;
+
+/* H2 */
+
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 37px;
+/* identical to box height */
+text-align: center;
+
+/* H1 */
+color: #0C191F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}       
+.modalcard
+{
+    /* Pop-up */
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 30px;
+gap: 40px;
+
+position: absolute;
+width: 520px;
+height: 451px;
+left: calc(50% - 570px/2);
+top: 274px;
+
+/* Background 2 */
+background: #E9EDED;
+border-radius: 0px 30px;
+
+}
+.modal-body input 
+{
+
+        border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+
+
+margin-bottom: 30px;
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 20px;
+gap: 10px;
+
+width: 510px;
+height: 64px;
+
+/* Text */
+border-bottom: 2px solid #556063;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+height: 24px;
+
+/* H4 */
+
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 135%;
+/* or 24px */
+margin-left: 0;
+/* Text */
+color: #556063;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+}
+.modal button
+{
+    /* Button */
+border: 0;
+color: white;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 30px;
+gap: 10px;
+
+width: 510px;
+height: 62px;
+
+/* Akcent */
+background: #57ADE4;
+border-radius: 0px 30px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
